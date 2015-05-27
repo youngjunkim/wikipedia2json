@@ -1,0 +1,23 @@
+{
+  "name": "wikipedia2json",
+  "version": "0.1.0",
+  "description": "wikipedia to json",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/youngjunkim/wikipedia2json.git"
+  },
+  "keywords": [
+    "wikipedia",
+    "json"
+  ],
+  "author": "John Kim <yj0109@gmail.com> (https://github.com/youngjunkim)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/youngjunkim/wikipedia2json/issues"
+  },
+  "homepage": "https://github.com/youngjunkim/wikipedia2json#readme"
+}
