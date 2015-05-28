@@ -472,7 +472,7 @@ var wtf_wikipedia=(function(){
         if(s.match(infobox_reg, "ig") && Object.keys(infobox).length==0){
           infobox= parse_infobox(s)
         }
-        if(s.match(/\{\{(SCOTUSCase|Jctgap|BCint|Taxobox|Quote box|succession box|multiple|columns-list|Persondata|Panorama|stack|ordered list|Aircraft specs|Coin image|Drugbox|Album|track|cite|infobox|Inligtingskas|sister|geographic|navboxes|listen|historical|citeweb|citenews|lien|clima|cita|Internetquelle|article|weather)[ \|:\n]/i)){
+        if(s.match(/\{\{(SCOTUSCase|Jctgap|BCint|Taxobox|Quote box|succession box|multiple|columns-list|Persondata|Panorama|stack|ordered list|Aircraft specs|Coin image|Drugbox|Album|track|Tracklist|cite|infobox|Inligtingskas|sister|geographic|navboxes|listen|historical|citeweb|citenews|lien|clima|cita|Internetquelle|article|weather)[ \|:\n]/i)){
           wiki=wiki.replace(s,'')
         }
       })
